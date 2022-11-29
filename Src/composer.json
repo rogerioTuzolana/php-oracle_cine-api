@@ -1,0 +1,23 @@
+{
+    "name": "frameworkphp/mvc",
+    "description": "Framework com modelo mvc completo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "../App/",
+            "Src\\": "../Src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rogerio Tuzolana",
+            "email": "tuzolanarogerio@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "psr/log": "^3.0",
+        "dompdf/dompdf": "^1.2",
+        "setasign/fpdf": "^1.8",
+        "mpdf/mpdf": "^8.0"
+    }
+}

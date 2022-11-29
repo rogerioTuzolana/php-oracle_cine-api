@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^(GET|POST|PUT|DELETE)
+RewriteRule ^(.*)$ Public/index.php?url=$1 [NC,L]
